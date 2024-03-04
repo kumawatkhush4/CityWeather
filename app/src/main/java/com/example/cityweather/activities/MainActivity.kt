@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         fetchWeatherData("jaipur")
-
+//hgjhgjhgjh
         searchCity()
 
     }
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                 if (query != null) {
                     fetchWeatherData(query)
                 }
-                return true
+                return true//hgfhg
             }
 
             override fun onQueryTextChange(newText: String?): Boolean {
